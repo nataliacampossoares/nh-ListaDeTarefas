@@ -15,8 +15,8 @@ function adicionarTarefa(tarefa) {
     novaDiv.classList.add("tarefa"); //classList.add = adiciona a classe "tarefa" à novaDiv
     novaDiv.innerHTML =  ` 
         <p>${tarefa}</p>
-        <button class="check">Check</button>
-        <button class="excluir">Excluir</button>
+        <button class="check" id="botao">Check</button>
+        <button class="excluir" id="botao">Excluir</button>
     `; //como deve aparecer na pag
     
     //EXCLUIR

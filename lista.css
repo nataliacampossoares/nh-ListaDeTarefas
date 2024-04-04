@@ -26,7 +26,6 @@
 
 .titulo {
     width: 100%;
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +34,7 @@
 
 .tarefa-form {
     width: 100%;
+    height: 60%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -43,7 +43,7 @@
 
 .tarefas-atuais {
     width: 100%;
-    height: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -56,7 +56,27 @@
     text-decoration: line-through;
 }
 
+#tarefa-input{
+    height: 40px;
+    width: 230px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#tarefa-input::placeholder {
+    font-family: "Barlow";
+    font-size: 17px
+}
+
 .subtitulo {
     font-family: "Barlow";
     font-size: 200%;
+}
+
+#botao {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-family: "Barlow";
+    font-size: 105%
 }
